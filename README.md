@@ -1,4 +1,6 @@
 # README
+DSA FUNDAMENTALS - TASK 4:
+
 D1 : count how many times 'l' appears in "hello world":
 
 im just iterating the string and checking if each letter is equal to 'l', if yes then im incrementing the counter
@@ -10,4 +12,6 @@ first im taking inputs for the array, then im setting the min variable value as 
 
 #D3 : manually find the 2nd largest number in an array
 
-first im taking inputs for the array, then im setting the max variable value as the first element of the array in the begginign and then i set second highest number variable whoich i took as 'sec' as the first element too, then i itterate every element in the array and if the element is greater than max variable value then sec variable takes max varaible value and  tht greater element value will be the new value for max variable, so the sec variable will have the second highest number as its value
+To find the second largest number in an array, I start by taking user input for all the elements. I then initialize two variables: max and sec. I set their initial values by comparing the first two elements of the array.
+
+After that, I iterate through the rest of the array (starting from the third element). During each step, I check if the current element is greater than max or if it's smaller than max but greater than sec. This two-part check ensures that max and sec are always updated correctly. The sec variable will have the second largest number at the end of the loop, which I then print.
