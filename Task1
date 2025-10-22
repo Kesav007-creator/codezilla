@@ -1,1 +1,10 @@
+#TASK 4 : DSA FUNDAMENTALS(PYTHON)
 
+#D1 : count how many times 'l' appears in "hello world"
+print("count how many times 'l' appears in 'hello world'")
+a = "hello world"
+count=0
+for i in a:
+    if i =="l":
+        count+=1
+print("number of times 'l' appeared in 'hello world' is -",count)
