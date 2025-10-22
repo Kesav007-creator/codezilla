@@ -1,0 +1,11 @@
+#D2 : find the smallest value in an array of 8 integers
+print("\nfind the smallest value in an array of 8 integers")
+l=[]
+for i in range(8):
+    a=int(input("enter number >"))
+    l.append(a)
+min =l[0]
+for i in range(len(l)):
+    if min> l[i]:
+        min=l[i]
+print("\nthe smallest value in the array is",min)
